@@ -1,0 +1,39 @@
+:root {
+  --theme-black: black;
+  --theme-white: white;
+  --theme-primary: #00FF00;
+}
+
+.theme-black {
+  color: var(--theme-black);
+}
+
+.theme-black-bg {
+  background-color: var(--theme-black);
+}
+
+.theme-white {
+  color: var(--theme-white);
+}
+
+.theme-white-bg {
+  background-color: var(--theme-white);
+}
+
+.theme-primary {
+  color: var(--theme-primary);
+  background-color: var(--theme-primary);
+}
+
+.box-border {
+  border: .3rem solid var(--theme-white);
+}
+
+main{
+  height: 100vh;
+  width: 100vw;
+}
+
+p {
+  margin-bottom: 0;
+}
