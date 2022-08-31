@@ -1,7 +1,7 @@
 :root {
   --theme-black: black;
   --theme-white: white;
-  --theme-primary: #00FF00;
+  --theme-primary: #00ff00;
 }
 
 .theme-black {
@@ -26,10 +26,10 @@
 }
 
 .box-border {
-  border: .3rem solid var(--theme-white);
+  border: 0.3rem solid var(--theme-white);
 }
 
-main{
+main {
   height: 100vh;
   width: 100vw;
 }
