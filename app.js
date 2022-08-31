@@ -92,7 +92,7 @@ function drawPackages(packages) {
 
   for (let package of packages) {
     template += `
-      <div class="package box-border d-flex justify-content-between align-items-center">
+      <div class="package px-5 py-2 mb-3 box-border d-flex justify-content-center align-items-center gap-5">
         <p>To: ${package.to}</p>
         <p>Tracking Number: ${package.trackingNumber}</p>
       </div>

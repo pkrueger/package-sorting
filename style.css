@@ -29,6 +29,11 @@
   border: 0.3rem solid var(--theme-white);
 }
 
+.button-active {
+  background-color: var(--theme-white);
+  color: var(--theme-black);
+}
+
 main {
   height: 100vh;
   width: 100vw;
@@ -36,4 +41,8 @@ main {
 
 p {
   margin-bottom: 0;
+}
+
+.package {
+  width: fit-content;
 }
